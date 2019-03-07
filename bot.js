@@ -2143,7 +2143,7 @@ if(!role) return;
              role.edit({
                  color : "RANDOM"
              });
-         }, 1700)
+         }, 3000)
 });
 
 
