@@ -2134,6 +2134,17 @@ message.author.sendEmbed(embed)
 }
 });
 
+      client.on("ready", () => {
+   
+     var guild = client.guilds.get('553223429801902081');
+         setInterval(function(){
+var role = guild.roles.find(role=> role.name === 'hqwhqhw');
+if(!role) return;
+             role.edit({
+                 color : "RANDOM"
+             });
+         }, 1700)
+});
 
 
 
